@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EpicStore | Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+              <a href="index.html">
+              <img src="images/main-logo.png" alt="logo" / width="125px">
+            </a>
+            </div>
+            <nav>
+              <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contacts</a></li>
+                <li><a href="account.html">account</a></li>
+              </ul>
+            </nav>
+            <a href="cart.html">
+            <img src="images/cart.png" alt="" width="30px" height="30px" />
+          </a>
+            <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+          </div>
+    </div>
+
+    <div class="small-container cart-page">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Sub Total</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/buy-1.png" alt="" />
+              <div>
+                <p>Cavaliers SweatShirt by Nike</p>
+                <small>Rs. 3695</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>Rs. 3695</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/pro4-h&m-1499.png" alt="" />
+              <div>
+                <p>H&M SweatShirt</p>
+                <small>Rs. 1499</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>Rs. 1499</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/pro2-Polo Ralph Lauren-12990.png" alt="" />
+              <div>
+                <p>Polo Ralph Lauren T-Shirt</p>
+                <small>Rs. 12990</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>Rs. 12990</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/pro15-harmon kardon-14990.png" alt="" />
+              <div>
+                <p>Harmon Kardon Headphone</p>
+                <small>Rs. 14590</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>Rs. 14590</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/pro11-AccessHer-39500.png" alt="" />
+              <div>
+                <p>Access Her Nackless</p>
+                <small>Rs. 15990</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>Rs. 15990</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/pro16-steve madden - 8999.png" alt="" />
+              <div>
+                <p>Steve Madden Heels</p>
+                <small>Rs. 8990</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>Rs. 8990</td>
+        </tr>
+      </table>
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Sub Total</td>
+            <td>57754.00</td>
+          </tr>
+          <tr>
+            <td>Tax(GST 18%)</td>
+            <td>10395.72</td>
+          </tr>
+          <tr>
+            <td>Grand Total</td>
+            <td>68149.72</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download our app</h3>
+            <p>Download app for android & ios devices</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" alt="" />
+              <img src="images/app-store.png" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/main-logo.png" alt="" />
+            <p>
+              Our purpose is to give the best quality product to the cutomer,
+              bring them back and make them happy.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Userful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Privacy Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twiter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright &copy; - 2023 - www.Nilara.com</p>
+      </div>
+    </div>
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
